@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body class="w-full h-screen font-jakarta">
+    <header
+      class="mb-16 flex flex-row justify-between items-center mx-40 md:mx-10 sm:mx-4 mt-9 md:mt-4"
+    >
+      <img src="assets/logo.svg" alt="Logo" />
+      <button
+        class="w-56 h-14 font-bold bg-theme-black text-light-cream rounded-full hover:bg-galactic-blue"
+      >
+        Free Consultation
+      </button>
+    </header>
+    <main>
+      <section class="text-center flex flex-col gap-6 flex-wrap mx-[21rem]">
+        <h1 class="text-[3.5rem] font-bold">Design solutions made easy</h1>
+        <p class="text-lg text-medium-brown px-4 font-medium leading-7">
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+      </section>
+      <section class="mt-20 grid gap-6">
+        <div
+          class="bg-galactic-blue relative rounded-lg w-[22.125rem] aspect-square"
+        >
+          <img
+            class="absolute"
+            src="assets/pattern-graphic-design.svg"
+            alt="Graphic design"
+          />
+          <p class="absolute text-2xl font-bold text-light-cream">
+            Graphic Design
+          </p>
+        </div>
+
+        <div
+          class="w-[11.375rem] relative rounded-md aspect-square bg-summer-yellow"
+        >
+          <img class="absolute" src="assets/pattern-ui-ux.svg" alt="UI/UX" />
+          <p class="absolute text-2xl font-bold text-light-cream">UI/UX</p>
+        </div>
+        <div class="w-[11.375rem] aspect-square bg-light-pink">
+          <img class="absolute" src="assets/pattern-apps.svg" alt="Apps" />
+          <p class="absolute text-2xl font-bold text-light-cream">Apps</p>
+        </div>
+
+        <div class="bg-5-cyan w-[22.125rem] h-[11.375rem] rounded-md relative">
+          <img
+            class="absolute"
+            src="assets/pattern-photography.svg"
+            alt="Photography"
+          />
+          <p class="absolute text-2xl font-bold text-light-cream">
+            Photography
+          </p>
+        </div>
+
+        <div
+          class="bg-light-red w-[22.125rem] h-[11.375rem] relative rounded-md"
+        >
+          <img
+            class="absolute"
+            src="assets/pattern-illustrations.svg"
+            alt="Illustrations"
+          />
+          <p class="absolute text-2xl font-bold text-light-cream">
+            Illustrations
+          </p>
+        </div>
+
+        <div
+          class="bg-light-red w-[22.125rem] h-[11.375rem] relative rounded-md"
+        >
+          <img
+            class="absolute"
+            src="assets/pattern-motion-graphics.svg"
+            alt="Motion graphics"
+          />
+          <p class="absolute text-2xl font-bold text-light-cream">
+            Motion Graphic
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
